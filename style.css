@@ -4,7 +4,7 @@
 }
 body{
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
-    background: linear-gradient(180deg, #FFF 0%, #90A955 100%);
+    background: linear-gradient(180deg, #FFF 0%, #90A955 60%);
     height: 3220px; 
     
 }
@@ -12,6 +12,7 @@ header ul{
     display: flex;
     list-style: none;
     margin-top: 10px;
+    
 }
 ul li {
     text-decoration: none;
@@ -22,11 +23,15 @@ ul li {
 }
 
 header{
-    background: #fff;
+    background: rgba(255,255,255,0.3) ;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
 }
 
 #cadastro{
@@ -39,11 +44,12 @@ nav {
     position: static;
 }
 
-#NomeHeader{
+#imgHeader{
     
     position: absolute;
     left: 15px;
-    font-size: 45px;
+    top: 2px;
+    width: 100px;
     color: green;
 
 }
@@ -52,4 +58,31 @@ nav {
     display: flex;
     align-items: center;
     
+}
+
+#initialSection{
+    height: 100vh;
+    display: flex;
+    background-image: url(img/02.jpg);
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#initialSectionDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    box-shadow: -15px 0px 3px green;
+    border-radius: 99999px;
+    width: 400px;
+    height: 400px;
+    
+}
+
+#initialSectionDiv img{
+    width: 250px;
+
 }
