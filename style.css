@@ -48,6 +48,10 @@ nav {
     height: 100vh;
 }
 
+#secContent{
+    margin-top: 15vh;
+}
+
 #imgHeader{
     
     position: absolute;
