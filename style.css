@@ -5,7 +5,7 @@
 body{
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
     background: linear-gradient(180deg, #FFF 0%, #90A955 60%);
-    height: 3220px; 
+    
     
 }
 header ul{
@@ -14,7 +14,7 @@ header ul{
     margin-top: 10px;
     
 }
-ul li {
+header ul li {
     text-decoration: none;
     font-size: 25px;
     margin: 10px;
@@ -35,7 +35,7 @@ header{
 }
 
 #cadastro{
-    background-color: green;
+    background-color: #90A955;
     border-radius: 9999px;
     border: solid black 2px;
 }
@@ -48,17 +48,13 @@ nav {
     height: 100vh;
 }
 
-#secContent{
-    margin-top: 15vh;
-}
-
 #imgHeader{
     
     position: absolute;
     left: 15px;
     top: 2px;
     width: 100px;
-    color: green;
+    color: #488623;
 
 }
 
@@ -82,7 +78,7 @@ nav {
     align-items: center;
     justify-content: center;
     background-color: #FFF;
-    box-shadow: -15px 0px 3px green;
+    box-shadow: -15px 0px 3px #488623;
     border-radius: 99999px;
     width: 400px;
     height: 400px;
@@ -97,9 +93,108 @@ nav {
 h1 {
     font-size: 50px;
     margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+p{
+    font-size: 25px;
+    margin: 5px;
 }
 
 #secContent {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#secContent div{
+    width: 1024px;
+}
+
+footer{
+    background-color: #488623;
+    display: flex;
+    justify-content: space-around;
+}
+
+.confingFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    font-size: 30px;
+    margin: 15px;
+}
+
+#face {
+color: rgb(35, 31, 94);
+
+}
+
+#face:hover{
+    color: #FFF;
+}
+
+#insta{
+    color: #E1306C;
+}
+
+#insta:hover{
+    color: #FFF;
+}
+
+#ttk:hover{
+    color: #FFF;
+}
+
+#link {
+    color: #0e76a8;
+}
+
+#link:hover{
+    color: #FFF;
+}
+.divImage{
+    display: flex;
+    flex-direction: column;
+}
+.divImage img{
+    border-radius: 10px;
+    margin: 15px;
+    width: 1024px;
+    height: 576px;
+}
+
+#parceirosImages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parceirosImages img{
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    border-radius: 99999px;
+    
+}
+
+#parceiros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ExpecialImage{
+    display: flex;
+    flex-direction: column;
+}
+#ExpecialImage img{
+    justify-content: center;
+    align-items: center;
 }
