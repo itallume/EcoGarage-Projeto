@@ -18,12 +18,12 @@ header ul li {
     text-decoration: none;
     font-size: 25px;
     margin: 10px;
-    padding: 5px;
+    padding: 10px;
     align-items: center;
 }
 
 header ul li a:hover{
-    color: #488623;
+    color: #3f8623;
     text-decoration: underline;
 }
 
@@ -38,16 +38,27 @@ header{
     right: 0;
     height: 75px;
 }
-
-#cadastro{
-    background-color: #90A955;
-    border-radius: 9999px;
+#entrar{
+    background-color: #60ac42;
+    border-radius: 20px;
     border: solid black 2px;
 }
-#cadastro:hover{
-    background-color: #488623;
+
+#entrar:hover{
+    background-color:#3f8623 ;
     color: #FFF;
 }
+#cadastro{
+    background-color: #77a359;
+    border-radius: 20px;
+    border: solid black 2px;
+}
+
+#cadastro:hover{
+    background-color: #3f8623 ;
+    color: #FFF; 
+}
+
 nav {
     position: static;
 }
@@ -102,6 +113,7 @@ h1 {
     font-size: 50px;
     margin-top: 50px;
     margin-bottom: 25px;
+    font-weight: 700;
 }
 
 p{
